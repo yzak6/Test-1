@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width">
+    <title>Formulario</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/6716868?s=280&v=4">
+    <link rel="stylesheet" href="Estilo.css"/>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <div class="row">
+        <aside>
+            <h2>Izquierdo</h2>
+        </aside>
+        <section>
+            <h2>Registro de usuario</h2>
+            <form action="envio.php" method="get">
+            Nombre <input type="text" name="nombre" autofocus="autofocus" required><br><br>
+            Apellido paterno <input type="text" name="apellidoP" required><br><br>
+            Apellido materno <input type="text" name="apellidoM" required><br><br>
+            Edad <input type="number" name="edad" required><br><br>
+            Tel&eacute;fono <input type="tel" name="telefono" maxlength="10" placeholder="lada+numero" required><br><br>
+            Correo <input type="mail" name="correo" placeholder="correo@dominio.com" required><br><br>
+            
+            <input type="submit" value="Enviar"><br><br>
+            <input type="reset" vallue="Borrar"><br><br>
+
+            </form>
+        </section>
+        <aside>
+            <h2>Derecho</h2>
+        </aside>
+    </div>
+    
+</body>
+</html>
